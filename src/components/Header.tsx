@@ -8,7 +8,7 @@ type HeaderProps = {
     clearCart: () => void
     isEmpty: boolean
     cartTotal: number
-}
+}   
 
 export default function Header({ cart, removeFromCart, decreaseQuantity, increaseQuantity, clearCart, isEmpty, cartTotal }: HeaderProps) {
     return (
